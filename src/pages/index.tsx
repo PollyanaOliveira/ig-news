@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import styles from './home.module.scss';
 
 export default function Home() {
   return (
@@ -6,7 +7,21 @@ export default function Home() {
       <Head>
         <title>ig news</title>
       </Head>
-      <h1>Hello World</h1>
+      <main className={styles.contentContainer}>
+        <section className={styles.hero}>
+          <span>👏 Hey, Welcome</span>
+          <h1>
+            News about
+            <br /> the <span>React </span>world.
+          </h1>
+          <p>
+            Get access to all the publications
+            <br />
+            for $ 9.90 month
+          </p>
+        </section>
+        <img src="/images/avatar.svg" alt="Girl Coding" />
+      </main>
     </>
   );
 }
