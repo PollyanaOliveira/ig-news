@@ -35,7 +35,7 @@ export default async (request: NextApiRequest, response: NextApiResponse) => {
       });
 
       await fauna.query(
-        query.Update(query.Ref(query.Collection('users'), user.ref.id), {
+        query.Update(query.Ref(query.Collection('user'), user.ref.id), {
           data: {
             stripe_customer_id: stripeCustomer.id
           }
