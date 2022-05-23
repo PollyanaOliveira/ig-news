@@ -52,7 +52,7 @@ export default async (request: NextApiRequest, response: NextApiResponse) => {
       line_items: [{ price: 'price_1Kzr1jEgicn3Ii8Fr65sUHVa', quantity: 1 }],
       mode: 'subscription',
       allow_promotion_codes: true,
-      success_url: process.env.STRIPE_SUCESS_URL,
+      success_url: process.env.STRIPE_SUCCESS_URL,
       cancel_url: process.env.STRIPE_CANCEL_URL
     });
 
