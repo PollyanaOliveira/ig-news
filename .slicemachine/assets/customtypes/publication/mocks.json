@@ -1,0 +1,21 @@
+{
+  "id": "244c41a1-722c-487c-a60b-f6985c278d2c",
+  "uid": "quisquam-voluptatem-ad",
+  "type": "publication",
+  "data": {
+    "title": [
+      {
+        "type": "paragraph",
+        "text": "Adipisicing deserunt sunt amet eiusmod eu veniam ad commodo aliqua dolor cupidatat Lorem non. Ipsum occaecat sunt est occaecat culpa reprehenderit aliqua quis fugiat do aliqua aute eu. Mollit fugiat aute aliqua elit dolor laboris sunt.",
+        "spans": []
+      }
+    ],
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Id consequat minim mollit et eiusmod. Consectetur officia dolore duis aliqua quis irure enim excepteur quis excepteur mollit magna dolore proident. Dolore magna ad tempor tempor occaecat in nostrud mollit.",
+        "spans": []
+      }
+    ]
+  }
+}
