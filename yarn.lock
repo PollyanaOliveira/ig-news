@@ -1184,6 +1184,11 @@
     "@prismicio/helpers" "^2.2.1"
     "@prismicio/types" "^0.1.27"
 
+"@prismicio/helpers@^1.0.4":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@prismicio/helpers/-/helpers-1.2.0.tgz#7e6c8a2ca469af3c3ff1997b4d8d4eb88ee86cdf"
+  integrity sha512-YsOfGgauGeTC5Co8zXvz278Lc/V3fyNaAPTs/y4gGrLmLhYa/eT7+USYvDB9RhKEPhYFnUqBiGWa+3l7BksYOQ==
+
 "@prismicio/helpers@^2.2.1", "@prismicio/helpers@^2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@prismicio/helpers/-/helpers-2.3.0.tgz#316cdfdf668efd379a8c2ccfc169e320da30a346"
@@ -1194,13 +1199,25 @@
     escape-html "^1.0.3"
     imgix-url-builder "^0.0.3"
 
-"@prismicio/react@^2.3.0":
+"@prismicio/next@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@prismicio/next/-/next-0.1.2.tgz#f63567b97bf7bd5ddfa1bdfee8bf1ab81e9aa2b2"
+  integrity sha512-y8TPvZDjSxIsGTXNhCiPacdIB47s45HP1asetzWyNWQLgpaHmsZBZ//ioK0QX1CyNg5LHugoa0DkUpqUlFViZg==
+  dependencies:
+    "@prismicio/react" "^2.2.0"
+
+"@prismicio/react@^2.2.0", "@prismicio/react@^2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@prismicio/react/-/react-2.3.0.tgz#3bfd4951143b41a2225083d309b9d8289190dd7a"
   integrity sha512-bgFh/iZD4czoWakZkPc4Z0oDwur8OsxRcpVzsI0sQC8brscfS3ZbA8PK5NwBe5D2jCCzSJo8dnUnnckzAhEdWg==
   dependencies:
     "@prismicio/helpers" "^2.3.0"
     "@prismicio/richtext" "^2.0.1"
+
+"@prismicio/richtext@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@prismicio/richtext/-/richtext-1.1.0.tgz#c8769c3d953ae42854a2aba951e3b2121682b8c7"
+  integrity sha512-925JuFiZiIkwu9jmlR9O/U8xCSZk/Y6BQDXKpavoVsKo+n90ml1hGdtWkglIupX+ITQO1ZINyDgUgiY1oG9dsA==
 
 "@prismicio/richtext@^2.0.1":
   version "2.1.0"
@@ -1261,10 +1278,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.6.0.tgz#3c7c9c46e678feefe7a2e5bb609d3dbd665ffb3f"
   integrity sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==
 
-"@slicemachine/core@1.1.8":
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/@slicemachine/core/-/core-1.1.8.tgz#36f08f9242eadda733566f4b6c09381366aa010f"
-  integrity sha512-y5wRXgFWMlZ6xGAndURuDT0L7StqMjcmzfq/dstln6frwWjXuOorx/oJB6B2bPXowyl3qtPVMYL4+DdP2Xquyg==
+"@slicemachine/core@1.1.9":
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/@slicemachine/core/-/core-1.1.9.tgz#812ca6aa192619a79cc012ba34aadfded42721f2"
+  integrity sha512-G0XzQapmerVDVehLwC40u34YY1ocOajVdt1l+64wdlzFr8q/5FSbFIsbQPH5usmwAC7JlI270eyZbqRgqba2vA==
   dependencies:
     "@prismicio/types-internal" "^0.2.8"
     axios "^0.26.0"
@@ -2655,7 +2672,7 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-ejs@^3.1.6:
+ejs@^3.1.7:
   version "3.1.8"
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-3.1.8.tgz#758d32910c78047585c7ef1f92f9ee041c1c190b"
   integrity sha512-/sXZeMlhS0ArkfX2Aw780gJzXSMPnKjtspYZv+f3NiKLlubezAHDU5+9xz6gd3/NhG3txQCo6xlglmTS+oTGEQ==
@@ -2807,7 +2824,7 @@ escalade@^3.1.1:
   resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
   integrity sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==
 
-escape-html@^1.0.3, escape-html@~1.0.3:
+escape-html@1.0.3, escape-html@^1.0.3, escape-html@~1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
   integrity sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
@@ -5251,6 +5268,15 @@ pretty-format@^3.8.0:
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-3.8.0.tgz#bfbed56d5e9a776645f4b1ff7aa1a3ac4fa3c385"
   integrity sha1-v77VbV6ad2ZF9LH/eqGjrE+jw4U=
 
+prismic-dom@^2.2.7:
+  version "2.2.7"
+  resolved "https://registry.yarnpkg.com/prismic-dom/-/prismic-dom-2.2.7.tgz#a4d36cc4fc92b84f8b46e5a515513c07b5f2f43e"
+  integrity sha512-4rJWzBqq/6h15giAzB6L8+eaWLQJrQcM4EAicmtw3mI8DhussbJOgheTeFtTCgvO7e5QEjZA0he5gEbQYfKGmg==
+  dependencies:
+    "@prismicio/helpers" "^1.0.4"
+    "@prismicio/richtext" "^1.1.0"
+    escape-html "1.0.3"
+
 probe-image-size@^7.2.2:
   version "7.2.3"
   resolved "https://registry.yarnpkg.com/probe-image-size/-/probe-image-size-7.2.3.tgz#d49c64be540ec8edea538f6f585f65a9b3ab4309"
@@ -5860,15 +5886,15 @@ slash@3.0.0, slash@^3.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
-slice-machine-ui@^0.3.7:
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/slice-machine-ui/-/slice-machine-ui-0.3.7.tgz#5df5a6c87e775fc9cef2402976418d56d3b5bafc"
-  integrity sha512-3g9kUKRBqVfacuh6TJHELNP+XJqAl8oKtadUVSrbpkRo56AedqOyOy5yp7ckgoUZd6U2w+ydx7s+GArqI9K1ow==
+slice-machine-ui@^0.3.8:
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/slice-machine-ui/-/slice-machine-ui-0.3.8.tgz#5d9b8fd12c1a3d1279f52dd31a865d0b107a377a"
+  integrity sha512-KV+x9+afZ20F4jc/kHMFlyZCV94OBGzf9QoH2RpkABdHcOW3okULmf8PET7lsshXlOg3VvrnYwmmudvIQHsZgg==
   dependencies:
     "@babel/register" "^7.17.7"
     "@faker-js/faker" "^6.0.0"
     "@prismicio/types-internal" "^0.2.7"
-    "@slicemachine/core" "1.1.8"
+    "@slicemachine/core" "1.1.9"
     "@svgr/webpack" "^5.4.0"
     atob "^2.1.2"
     axios "^0.26.0"
@@ -5880,7 +5906,7 @@ slice-machine-ui@^0.3.7:
     cors "^2.8.5"
     dedent "^0.7.0"
     deepmerge "^4.2.2"
-    ejs "^3.1.6"
+    ejs "^3.1.7"
     esm "^3.2.25"
     express "^4.17.1"
     express-form-data "^2.0.14"
